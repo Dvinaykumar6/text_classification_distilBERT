@@ -68,14 +68,8 @@ text_classification_distilBERT/
 git clone https://github.com/Dvinaykumar6/text_classification_distilBERT.git
 cd text_classification_distilBERT
 2. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Run the training pipeline
-bash
-Copy
-Edit
 python -m src.components.data_ingestion
 This triggers:
 
@@ -87,16 +81,8 @@ Model training
 
 Saving artifacts
 
-🧪 Inference Example
-python
-Copy
-Edit
-from predict_pipeline import Predictor
+🧪 For inference
 
-predictor = Predictor(model_dir="artifacts/model")
-result = predictor.predict_text("This movie was absolutely amazing!")
-print(result)
-Or for a .csv file of reviews:
 
 
 python predict_pipeline.py --input_file sample.csv --output_file predictions.csv
