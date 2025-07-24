@@ -10,6 +10,8 @@ Classify IMDB movie reviews into **positive** or **negative** sentiment using a 
 
 # Project Structure
 
+```bash
+
 text_classification_distilBERT/
 │
 ├── artifacts/ # Contains saved models, tokenizers, and processed data
