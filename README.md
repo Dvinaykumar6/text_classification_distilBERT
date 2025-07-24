@@ -10,7 +10,7 @@ Classify IMDB movie reviews into **positive** or **negative** sentiment using a 
 
 # Project Structure
 
-```bash
+<!-- ```bash -->
 
 text_classification_distilBERT/
 │
@@ -64,8 +64,8 @@ text_classification_distilBERT/
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/Dvinaykumar6/text_classification_distilBERT.git
+<!-- ```bash -->
+1. git clone https://github.com/Dvinaykumar6/text_classification_distilBERT.git
 cd text_classification_distilBERT
 2. Install dependencies
 pip install -r requirements.txt
