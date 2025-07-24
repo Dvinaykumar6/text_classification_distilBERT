@@ -67,23 +67,16 @@ text_classification_distilBERT/
 
 <!-- ```bash -->
 1. git clone https://github.com/Dvinaykumar6/text_classification_distilBERT.git
-cd text_classification_distilBERT
+    cd text_classification_distilBERT
 2. Install dependencies
-pip install -r requirements.txt
+    pip install -r requirements.txt
 3. Run the training pipeline
-python -m src.components.data_ingestion
+    python -m src.components.data_ingestion
 This triggers:
-
-Data ingestion
-
-Tokenization
-
-Model training
-
-Saving artifacts
+              Data ingestion
+              Tokenization
+              Model training
+              Saving artifacts
 
 🧪 For inference
-
-
-
-python predict_pipeline.py --input_file sample.csv --output_file predictions.csv
+    python predict_pipeline.py --input_file sample.csv --output_file predictions.csv
