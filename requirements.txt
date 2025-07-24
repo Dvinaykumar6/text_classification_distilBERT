@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+transformers
+datasets
+evaluate
+accelerate
+
+#-e .

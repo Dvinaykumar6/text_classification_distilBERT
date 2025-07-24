@@ -1,0 +1,4 @@
+[ 2025-07-24 21:57:04,993 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-07-24 21:57:14,660 ] 25 root - INFO - Entered the data ingestion method or component
+[ 2025-07-24 21:57:15,805 ] 34 root - INFO - Train test split initiated
+[ 2025-07-24 21:57:16,611 ] 42 root - INFO - Inmgestion of the data is completed
